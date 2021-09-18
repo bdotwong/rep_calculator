@@ -9,7 +9,7 @@ def calculator():
 
     
 
-    print(f"You lifted {w} for {r} reps ")
+    print(f"You lifted {w} lbs for {r} reps ")
     # To add a column
     # Syntax:- pretty.add_column(fieldname, column, align='c'/'r'/'l',valign='t'/'m'/'b')
     # Here,valign:- desired vertical alignment for new columns -"t" for top, "m" for middle and "b" for bottom
