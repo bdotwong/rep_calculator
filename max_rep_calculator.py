@@ -4,10 +4,8 @@ def calculator():
     list = PrettyTable()
     r = int(input('How many reps did you do? \n'))
 
-
     w = int(input('How much weight did you lift in lbs? \n' ))
 
-    
 
     print(f"You lifted {w} lbs for {r} reps ")
     # To add a column
@@ -47,5 +45,12 @@ def calculator():
     #list.add_column("eplay", "lombardi", "conner")
     print(list)
 
-
-calculator()
+while True:
+  choice =input("Would you like to calculate your max rep? 'yes' or 'no'? \n")
+  if choice.lower() == "yes":
+    calculator()
+  elif choice.lower() == 'no':
+    break
+  else:
+    print("Please pick a valid choice")
+#calculator()
